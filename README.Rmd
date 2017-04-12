@@ -10,7 +10,7 @@ The game chomp is played on a rectangular board with n rows and m columns. Where
   
 **Initial Board**  
 [\  ][\  ][\  ][\ ]  
-[ ][\  ][\  ][\ ]   
+[\  ][\  ][\  ][\ ]   
 [p][\  ][\  ][\  ]  
   
 Each player takes turns making moves until only the poison piece is remaining. A move consist of selecting any square and removing all squares above it and to the right of it. Selecting the poison square is a loss for the respective player.  
