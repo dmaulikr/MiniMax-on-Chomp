@@ -39,7 +39,7 @@ Second player would lose in this case.
 It can be shown that for any rectangular board of chomp with n rows and m columns where n, m > 1 first player has a winning strategy, however, finding the winning strategy can be very difficult for large games of chomp. Currently my game Choco Chomp on the app store can only be played between 2 human players. My plan is to use the minimax algorithm to find the winning strategy to potentially add single player mode to my game on the app store. I will be using the Swift language since that is the language for IOS development. I will also try to do use other similar algorithms like alpha-beta search to improve the search time. 
 
 
-![](http://example.com/logo.png)
+![](MiniMax-on-Chomp/Images/minimax.png)
 
 
 
