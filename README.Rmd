@@ -4,8 +4,8 @@ author: "David Chavez"
 date: "4/11/2017"
 output: pdf_document
 ---
-The minimax and alpha-beta search algorithms are commonly used for AI programming. They help find the best possible outcomes for a given scenario. I decided to use this algorithm to help me with a game I recently published on the app store called [Choco Chomp](https://itunes.apple.com/us/app/choco-chomp/id1213722025?ls=1&mt=8). It is based on a similarly named game "chomp". The impartial game "chomp" is a two-player game with perfect information which means that both players can make the same moves and no information is hidden from any player. For example, chess is not an impartial game since player 2 cannot move player 1's pieces. A game with imperfect information would be poker since player 1 cannot see player 2's cards.   
-  
+Chomp is mathematical game played on a rectangular grid of size MxN where M and N > 1. Chomp is a combinatorial game; therefore, it is played between two players where both players have perfect information and the game cannot end in a draw. For some basic cases like NxN boards, 2xN boards, and 3xN boards where N > 1 winning strategies exist, however, the winning strategy is unknown for larger chomp games. The purpose of this project is to make an AI that would play perfectly in a game of chomp. I will limit the board size to a very trivial board (2x2 board) but it should be very easy to scale to much larger games. I also plan to use minimax theorem to help me find the optimal route in the chomp game tree. 
+
 The game chomp is played on a rectangular board with n rows and m columns. Where m, n > 1. The bottom left piece is poison. For example, consider the following board.  
   
 **Initial Board**  
